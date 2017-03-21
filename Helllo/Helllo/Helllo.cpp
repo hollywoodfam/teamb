@@ -1,14 +1,7 @@
-// Helllo.cpp : Defines the entry point for the console application.
-//
-
-
-#include <iostream>
-using namespace std;
-
-int main()
+void welcomePlayer(const string& aJumble)
 {
-	cout << "Hello World" << endl;
-	system("Pause");
-	return 0;
+	cout << "\t\t\Welcome to Word Jumble!" << endl << endl;
+	cout << "Unscramble the letter to make a word." << endl;
+	cout << "Enter 'quit' to quit the game." << endl;
+	cout << "The jumble is: " << aJUmble;
 }
-
