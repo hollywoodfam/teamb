@@ -1,3 +1,13 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	return 0;
+}
+
 void play(const string& aWord)
 {
 	string guess;
@@ -10,7 +20,7 @@ void play(const string& aWord)
 		{
 			cout << "Sorry, that's not it.";
 		}
-	} while ((guess != aWord) && (guess != "quit"))
+	} while ((guess != aWord) && (guess != "quit"));
 
 	if (guess == aWord)
 		cout << endl << "That's it! You Guessed it!" << endl;
